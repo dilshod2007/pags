@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid red;
+  justify-content: center;
+  align-items:center;
+  margin: 0 auto;
+  max-width: 1440px;
+  // height: 6000px;
+}

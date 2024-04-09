@@ -1,0 +1,358 @@
+.hero {
+  max-width: 1400px;
+}
+.hero__text {
+  width: 50%;
+  width: 700px;
+  padding: 190px 30px;
+}
+.hero__card {
+  display: flex;
+}
+.hero__text h1 {
+  font-size: 52px;
+  line-height: 65px;
+  font-weight: 600;
+  font-family: "Exo 2", sans-serif;
+  max-width: 700px;
+}
+.hero__text p {
+  color: #363738;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  max-width: 500px;
+}
+.hero__text strong {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #363738;
+  font-family: "PT Sans", sans-serif;
+  max-width: 300px;
+}
+.hero__img {
+  padding: 109px 0px;
+}
+.hero__img img {
+  max-width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+.hero__page {
+  position: relative;
+  display: flex;
+  padding: 40px 40px;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 40px;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 20px 5px #aaa;
+  border-radius: 20px;
+  max-width: 1440px;
+}
+.hero__goods h2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  color: #363738;
+  line-height: 27px;
+  font-weight: 600;
+}
+.hero__goods p {
+  font-family: "PT Sans", sans-serif;
+  color: #6B6B6C;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero__card {
+    flex-direction: column;
+  }
+  .hero__text h1 {
+    font-size: 30px;
+    max-width: 400px;
+  }
+  .hero__card p {
+    font-size: 16px;
+    max-width: 300px;
+  }
+  .hero__img img {
+    max-width: 470px;
+    padding: 0px 30px;
+    margin-top: -200px;
+  }
+}
+.why {
+  position: relative;
+}
+.why__card {
+  display: flex;
+}
+.why__group {
+  padding: 67px 0px;
+  height: 600px;
+}
+.why__img {
+  width: 50%;
+  position: absolute;
+  margin-left: 220px;
+  padding: 0px 10px;
+}
+.why__text {
+  position: absolute;
+  width: 50%;
+  left: 50px;
+  max-width: 1440px;
+}
+.why__text h1 {
+  position: absolute;
+  z-index: 1;
+  left: 100px;
+  top: 200px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "Exo 2", sans-serif;
+  color: #FFFFFF;
+}
+.why__card {
+  display: flex;
+  gap: 20px;
+}
+.why__ellipse {
+  margin-left: 180px;
+}
+.why__icon {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.works {
+  padding: 50px 50px;
+}
+
+.works h1 {
+  font-size: 48px;
+  color: #363738;
+  line-height: 60px;
+  font-weight: 600;
+}
+
+.works p {
+  font-size: 16px;
+  color: #6B6B6C;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.blog__card {
+  width: 393px;
+  height: 439px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px 0px #aaa;
+}
+.blog__text {
+  padding: 34px 30px;
+}
+.blog__text h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #363738;
+}
+.blog__text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400px;
+  color: #6B6B6C;
+}
+.blog__text strong {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #363738;
+}
+
+.clients {
+  padding: 200px 50px;
+}
+.clients__group {
+  background: #0B7572;
+  display: flex;
+}
+.clients__text {
+  width: 35%;
+  text-align: center;
+  margin-top: 100px;
+}
+.clients__text h2 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.paper {
+  padding: 80px 65px;
+}
+
+.paper img {
+  width: 652px;
+}
+
+.steps {
+  padding: 70px;
+  max-width: 1200px;
+}
+.steps__card {
+  max-width: 1220px;
+  width: 1183px;
+  height: 245px;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.1215686275);
+  margin-top: 40px;
+  display: flex;
+  gap: 50px;
+  padding: 20px 100px;
+}
+.steps__text {
+  margin-top: 13px;
+}
+.steps__text h3 {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  color: #363738;
+}
+.steps__text p {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #6B6B6C;
+}
+.steps__logo {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: px 200px;
+  margin-top: 100px;
+  width: 100%;
+  margin-left: 50px;
+}
+.steps__box {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: px 200px;
+  margin-top: 100px;
+  width: 100%;
+  margin-left: 25px;
+}
+.steps__about h1 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.steps .h1 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+
+.team {
+  max-width: 1400px;
+  display: flex;
+}
+.team__page {
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+}
+.team__group {
+  display: flex;
+  width: 600px;
+  height: 210px;
+  border-radius: 10px;
+  box-shadow: 1px 5px 10px 5px #aaa;
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+.team__logo {
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+}
+.team__svg {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.text {
+  margin-top: 10px;
+}
+
+.last__card {
+  display: flex;
+  gap: 200px;
+  margin-top: 100px;
+  margin-left: 50px;
+  justify-content: center;
+}
+.last__text h1 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  color: #363738;
+}
+.last__text {
+  margin-top: 100px;
+  width: 40%;
+  margin-left: 30px;
+}
+.last__vedio {
+  margin-left: 50px;
+  margin-top: 100px;
+}/*# sourceMappingURL=main.css.map */

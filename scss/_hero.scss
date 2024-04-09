@@ -1,0 +1,92 @@
+
+  .hero {
+
+    // border: 1px solid red;
+    max-width: 1400px;
+
+    &__text{
+       width: 50%;
+        width: 700px;
+         padding: 190px 30px;
+        // border: 1px solid red;
+
+    }
+    &__card {
+       display: flex;
+    }
+
+    &__text h1{
+        font-size: 52px;
+        line-height: 65px;
+        font-weight: 600;
+        font-family: "Exo 2", sans-serif;
+        max-width: 700px;
+        
+    }
+    &__text p {
+        color: #363738;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: "PT Sans", sans-serif;
+        max-width: 500px;
+
+    }
+    &__text strong{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+        color: #363738;
+        font-family: "PT Sans", sans-serif;
+        max-width:300px;
+    }
+    &__img {
+        padding: 109px 0px;
+        // border: 1px solid red;
+        // width: 50%;
+       
+    }
+    &__img img {
+        // width: 635px;
+        // height: 505px;
+        max-width: 100%;
+        height: auto;
+        max-width: 600px;
+    }
+    &__page {
+        position: relative;
+        display: flex;
+        padding:40px 40px;
+        gap: 100px;
+        align-items:center;
+        justify-content: center;
+        // border: 1px solid #aaa;
+        // padding: 10px 100px;/
+        margin: 0px 40px;
+        background: #FFFFFF;
+        box-shadow: 5px 10px 20px 5px #aaa;
+        border-radius: 20px;
+        max-width: 1440px;
+
+
+    
+    }
+    &__goods h2 {
+        font-family: "Exo 2", sans-serif;
+        font-size: 20px;
+        color: #363738;
+        line-height: 27px;
+        font-weight: 600;
+
+
+    }
+    &__goods p{
+        font-family: "PT Sans", sans-serif;
+        color: #6B6B6C;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    
+  }

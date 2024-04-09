@@ -1,0 +1,39 @@
+.team {
+    max-width: 1400px;
+    display: flex;
+    
+    
+    &__page {
+        // display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin: 0 auto;
+    }
+    &__group {
+        display:flex ;
+        width: 600px;
+        height:210px;
+        border-radius:10px;
+        box-shadow:1px 5px 10px 5px #aaa;
+        margin-top: 40px;
+        display: flex;
+        gap: 30px;
+
+    }
+    &__logo {
+       display: flex;
+       gap: 25px;
+       margin-top: 30px;
+        
+    }
+    &__svg {
+        display: flex;
+
+         gap: 15px;
+         justify-content: center;
+         padding: 10px 10px;
+    }
+}
+.text {
+    margin-top: 10px;
+}

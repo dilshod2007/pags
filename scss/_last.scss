@@ -1,0 +1,29 @@
+.last {
+    &__card {
+        display: flex;
+        gap: 200px;
+        margin-top: 100px;
+        margin-left: 50px;
+        justify-content: center;
+    }
+    &__text h1 {
+        font-family: Exo 2;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    color: #363738;
+    // margin-top: 180px;
+    }
+    &__text {
+        margin-top: 100px;
+        // border:1px solid red;
+        width: 40%;
+        margin-left: 30px;
+    }
+    &__vedio {
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+}
+ 

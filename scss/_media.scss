@@ -1,0 +1,41 @@
+// @media only screen and(max-width:1023px){
+//     .hero__img {
+//         padding: 0px 30px;
+//         color:red;
+//         }
+//     }
+
+@media only screen and (max-width:767px){
+    .hero__card {
+        // flex-direction: column-reverse;
+        flex-direction: column;
+    
+    }
+    // .hero__card {
+    //     // justify-content: center;
+    //     // align-items:center;
+    //     // text-align: center;
+    // }
+    .hero__text h1 {
+// text-align: center;
+font-size: 30px;
+max-width: 400px;
+    }
+    .hero__card p {
+        // text-align: center;
+        font-size: 16px;
+        max-width: 300px;
+
+            }
+   .hero__card strong {
+    //  text-align: center;
+    }
+    .hero__img img {
+        max-width: 470px;
+        // height: 300px;
+        padding: 0px 30px;
+        margin-top: -200px;
+    }
+
+   
+}
