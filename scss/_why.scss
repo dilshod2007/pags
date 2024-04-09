@@ -1,5 +1,6 @@
 .why {
     position: relative;
+    max-width: 1440px;
    
     // border:1px solid red;
 
@@ -10,22 +11,23 @@
     padding: 67px 0px;
     height:600px;
    }
-    &__img {
-       
-        width: 50%;
+    &__img  {
+       max-width: 500px;
+        // width: 50%;
         position: absolute;
         margin-left:220px ;
         padding: 0px 10px;
 
         
     }
+   
     &__text {
         position: absolute;
 
-        width: 50%;
+        // width: 50%;
         left: 50px;
         // top: 67px;
-        max-width: 1440px;
+        max-width: 540px;
     }
     &__text h1{
         position: absolute;
@@ -37,6 +39,7 @@
         line-height: 60px; 
         font-family: "Exo 2", sans-serif;
         color: #FFFFFF;
+        max-width: 400px;
 
 }
 &__card {
@@ -52,6 +55,12 @@
     display: flex;
     gap: 20px;
 }
+&__lorem h2 {
+    max-width: 327px;
+}
+&__lorem p {
+    max-width: 300px;
+}
 }  
 .works {
     // border:1px solid red;
@@ -62,6 +71,7 @@
         color: #363738;
         line-height: 60px;
         font-weight: 600;
+        font-family: "Exo 2", sans-serif;
     }
 
 .works p {
@@ -69,6 +79,8 @@
     color: #6B6B6C;
     line-height: 24px;
     font-weight: 400;
+    font-family: "PT Sans", sans-serif;
+    max-width: 550px;
 }
 .blog {
     // flex-wrap: wrap;
@@ -84,14 +96,31 @@
 
 
     }
+    &__scale {
+        width: 393px;
+        height: 439px;
+        border-radius: 10px;
+        background: #FFFFFF;
+        box-shadow:0px 10px 10px 0px #aaa;
+
+    }
+    &__crop {
+        width: 393px;
+        height: 439px;
+        border-radius: 10px;
+        background: #FFFFFF;
+        box-shadow:0px 10px 10px 0px #aaa;
+
+    }
     &__text {
         padding: 34px 30px;
     }
-    &__text h2 {
+    &__text h1 {
 font-size: 20px;
 font-weight: 600;
 line-height: 27px;
 color: #363738;
+font-family: "Exo 2", sans-serif;
 
 
     }
@@ -100,6 +129,7 @@ font-size: 16px;
 line-height: 24px;
 font-weight: 400px;
 color: #6B6B6C;
+font-family: "PT Sans", sans-serif;
 
     }
     &__text strong {
@@ -107,7 +137,7 @@ color: #6B6B6C;
         font-weight: 600;
         line-height: 21px;
         color: #363738;
-
+        font-family: "PT Sans", sans-serif;
     }
 }
 .clients {
@@ -130,7 +160,7 @@ color: #6B6B6C;
 
     }
     &__text h2 {
-        font-family: Exo 2;
+        font-family: "Exo 2", sans-serif;
 font-size: 48px;
 font-weight: 600;
 line-height: 60px;
@@ -146,4 +176,8 @@ color: #FFFFFF;
 }
 .paper img {
     width:652px;
+}
+.Rectangle{
+    max-width: 1040px;
+    // width: 100%;
 }

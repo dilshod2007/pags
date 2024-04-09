@@ -6,7 +6,7 @@ max-width: 1200px;
 
     &__card {
         max-width: 1220px;
-        width: 1183px;
+        // width: 1183px;
         height: 245px;
         background: hsl(0, 0%, 100%);
 box-shadow:5px 10px 10px 0px #0000001F;
@@ -19,7 +19,7 @@ padding: 20px 100px;
         margin-top: 13px;
     }
     &__text h3 {
-        font-family: Exo 2;
+        font-family: "Exo 2", sans-serif;
 font-size: 20px;
 font-weight: 600;
 line-height: 25px;
@@ -29,7 +29,7 @@ color: #363738;
 
     }
     &__text p {
-        font-family: PT Sans;
+        font-family: "PT Sans", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -74,7 +74,7 @@ color: #6B6B6C;
     //     display: inline-block;
     // }
     &__about h1 {
-        font-family: Exo 2;
+        font-family: "Exo 2", sans-serif;
 font-size: 48px;
 font-weight: 600;
 line-height: 60px;
@@ -82,6 +82,11 @@ text-align: left;
 color: #363738;
 margin-top: 100px;
 margin-left: 50px;
+
+    }
+    &__about p {
+    color: #6B6B6C;
+    
 
     }
     // &__logo {
@@ -96,7 +101,7 @@ margin-left: 50px;
     
 }
 .steps .h1 {
-    font-family: Exo 2;
+    font-family: "Exo 2", sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;

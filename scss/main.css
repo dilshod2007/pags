@@ -14,7 +14,7 @@
   line-height: 65px;
   font-weight: 600;
   font-family: "Exo 2", sans-serif;
-  max-width: 700px;
+  max-width: 600px;
 }
 .hero__text p {
   color: #363738;
@@ -36,8 +36,6 @@
   padding: 109px 0px;
 }
 .hero__img img {
-  max-width: 100%;
-  height: auto;
   max-width: 600px;
 }
 .hero__page {
@@ -59,12 +57,14 @@
   color: #363738;
   line-height: 27px;
   font-weight: 600;
+  max-width: 400px;
 }
 .hero__goods p {
   font-family: "PT Sans", sans-serif;
   color: #6B6B6C;
   font-weight: 400;
   line-height: 24px;
+  max-width: 250px;
 }
 
 * {
@@ -86,21 +86,127 @@
     flex-direction: column;
   }
   .hero__text h1 {
-    font-size: 30px;
+    font-size: 28px;
     max-width: 400px;
   }
   .hero__card p {
-    font-size: 16px;
+    font-size: 15px;
     max-width: 300px;
   }
+  .hero__card strong {
+    font-size: 15px;
+  }
   .hero__img img {
-    max-width: 470px;
+    max-width: 345px;
+    height: 253px;
     padding: 0px 30px;
     margin-top: -200px;
+  }
+  .hero__page {
+    max-width: 345px;
+    flex-direction: column;
+  }
+  .hero__line {
+    display: none;
+  }
+  .hero__goods h2 {
+    max-width: 300px;
+  }
+  .Rectangle {
+    display: none;
+  }
+  .why__card {
+    flex-direction: column;
+    margin-top: -200px;
+    padding: 70px 30px;
+    max-width: 500px;
+  }
+  .why__ellepse {
+    text-align: center;
+  }
+  .why__icon {
+    flex-direction: column;
+    padding: 0px 30px;
+  }
+  .works h1 {
+    max-width: 300px;
+    font-size: 28px;
+    padding: 30px 0px;
+  }
+  .works p {
+    max-width: 344px;
+    font-size: 15px;
+  }
+  .blog {
+    max-width: 1239px;
+  }
+  .blog__scale {
+    display: none;
+  }
+  .blog__crop {
+    display: none;
+  }
+  .blog__card {
+    max-width: 300px;
+    justify-content: center;
+  }
+  .blog__card img {
+    max-width: 300px;
+  }
+  .clients__text {
+    flex-direction: column-reverse;
+  }
+  .paper img {
+    max-width: 350px;
+    height: 500px;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: -45px;
+    margin-top: -26px;
+  }
+  .clients__group {
+    height: 600px;
+    max-width: 400px;
+    width: 400px;
+    margin-left: -40px;
+  }
+  .clients__text h2 {
+    flex-direction: column-reverse;
+    display: none;
+  }
+  .steps__img img {
+    display: none;
+  }
+  .steps__card {
+    height: 176px;
+    width: 400px;
+    max-width: 1200px;
+    margin-left: -60px;
+  }
+  .steps__text p {
+    width: 350px;
+    font-size: 15px;
+    margin-left: -120px;
+  }
+  .steps__text h3 {
+    width: 284px;
+    font-size: 18px;
+    margin-left: -40px;
+  }
+  .steps__line {
+    display: none;
+  }
+  .steps__box {
+    display: none;
   }
 }
 .why {
   position: relative;
+  max-width: 1440px;
 }
 .why__card {
   display: flex;
@@ -110,16 +216,15 @@
   height: 600px;
 }
 .why__img {
-  width: 50%;
+  max-width: 500px;
   position: absolute;
   margin-left: 220px;
   padding: 0px 10px;
 }
 .why__text {
   position: absolute;
-  width: 50%;
   left: 50px;
-  max-width: 1440px;
+  max-width: 540px;
 }
 .why__text h1 {
   position: absolute;
@@ -131,6 +236,7 @@
   line-height: 60px;
   font-family: "Exo 2", sans-serif;
   color: #FFFFFF;
+  max-width: 400px;
 }
 .why__card {
   display: flex;
@@ -144,6 +250,12 @@
   display: flex;
   gap: 20px;
 }
+.why__lorem h2 {
+  max-width: 327px;
+}
+.why__lorem p {
+  max-width: 300px;
+}
 
 .works {
   padding: 50px 50px;
@@ -154,6 +266,7 @@
   color: #363738;
   line-height: 60px;
   font-weight: 600;
+  font-family: "Exo 2", sans-serif;
 }
 
 .works p {
@@ -161,6 +274,8 @@
   color: #6B6B6C;
   line-height: 24px;
   font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  max-width: 550px;
 }
 
 .blog {
@@ -175,26 +290,43 @@
   background: #FFFFFF;
   box-shadow: 0px 10px 10px 0px #aaa;
 }
+.blog__scale {
+  width: 393px;
+  height: 439px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px 0px #aaa;
+}
+.blog__crop {
+  width: 393px;
+  height: 439px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 10px 0px #aaa;
+}
 .blog__text {
   padding: 34px 30px;
 }
-.blog__text h2 {
+.blog__text h1 {
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
   color: #363738;
+  font-family: "Exo 2", sans-serif;
 }
 .blog__text p {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
   color: #6B6B6C;
+  font-family: "PT Sans", sans-serif;
 }
 .blog__text strong {
   font-size: 16px;
   font-weight: 600;
   line-height: 21px;
   color: #363738;
+  font-family: "PT Sans", sans-serif;
 }
 
 .clients {
@@ -210,7 +342,7 @@
   margin-top: 100px;
 }
 .clients__text h2 {
-  font-family: Exo 2;
+  font-family: "Exo 2", sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
@@ -225,13 +357,16 @@
   width: 652px;
 }
 
+.Rectangle {
+  max-width: 1040px;
+}
+
 .steps {
   padding: 70px;
   max-width: 1200px;
 }
 .steps__card {
   max-width: 1220px;
-  width: 1183px;
   height: 245px;
   background: hsl(0, 0%, 100%);
   box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.1215686275);
@@ -244,7 +379,7 @@
   margin-top: 13px;
 }
 .steps__text h3 {
-  font-family: Exo 2;
+  font-family: "Exo 2", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
@@ -252,7 +387,7 @@
   color: #363738;
 }
 .steps__text p {
-  font-family: PT Sans;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -278,7 +413,7 @@
   margin-left: 25px;
 }
 .steps__about h1 {
-  font-family: Exo 2;
+  font-family: "Exo 2", sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
@@ -287,9 +422,12 @@
   margin-top: 100px;
   margin-left: 50px;
 }
+.steps__about p {
+  color: #6B6B6C;
+}
 
 .steps .h1 {
-  font-family: Exo 2;
+  font-family: "Exo 2", sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
@@ -332,6 +470,14 @@
   margin-top: 10px;
 }
 
+.text p {
+  color: #6B6B6C;
+}
+
+.text h1 {
+  font-family: "Exo 2", sans-serif;
+}
+
 .last__card {
   display: flex;
   gap: 200px;
@@ -340,7 +486,7 @@
   justify-content: center;
 }
 .last__text h1 {
-  font-family: Exo 2;
+  font-family: "Exo 2", sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
